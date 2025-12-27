@@ -44,7 +44,7 @@ This repository contains:
 
 1. **Clone or download** the repository  
    ```bash
-   git clone https://github.com/your-username/instagram-auth-ui-clone.git
+   git clone https://github.com/Adarshtechy/Instagram-Auth-UI-Clone.git
    ```
 2. Open the project folder
 3. Launch login.html or signup.html in your browser

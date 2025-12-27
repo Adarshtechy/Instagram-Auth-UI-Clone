@@ -1,0 +1,270 @@
+/* =========================
+   Global Styles
+========================= */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+}
+
+/* =========================
+   Signup & Login Boxes
+========================= */
+.signup-box,
+.login-box {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #dbdbdb;
+    width: 300px;
+    margin: 10px auto;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.signup-box h1 {
+    font-family: 'Billabong', cursive;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.signup-box .tagline {
+    color: #8e8e8e;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+/* =========================
+   Buttons
+========================= */
+.signup-btn {
+    background-color: #0095f6;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+.signup-btn:hover {
+    background-color: #0084d1;
+}
+
+/* =========================
+   Divider
+========================= */
+.divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.divider hr {
+    flex: 1;
+    border: none;
+    height: 1px;
+    background-color: #dbdbdb;
+}
+
+.divider span {
+    margin: 0 10px;
+    color: #8e8e8e;
+    font-size: 14px;
+}
+
+/* =========================
+   Form Inputs
+========================= */
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    width: 250px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    background-color: #fafafa;
+    font-size: 14px;
+}
+
+/* =========================
+   Terms Text
+========================= */
+.terms {
+    color: #8e8e8e;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.terms a {
+    color: #00376b;
+    text-decoration: none;
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}
+
+/* =========================
+   Login Box
+========================= */
+.login-box p {
+    font-size: 14px;
+}
+
+.login-box a {
+    color: #0095f6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-box a:hover {
+    text-decoration: underline;
+}
+
+/* =========================
+   App Links
+========================= */
+.app-links {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* =========================
+   Footer
+========================= */
+footer {
+    background-color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Footer Links */
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-links li {
+    margin: 5px 10px;
+}
+
+.footer-links a {
+    color: gray;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* =========================
+   Language Dropdown
+========================= */
+.footer-language {
+    margin: 10px 0;
+}
+
+.language-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.language-button {
+    background-color: #fff;
+    border: 1px solid #ccd0d5;
+    color: #1c1e21;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #1c1e21;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.language-dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* =========================
+   Footer Copyright
+========================= */
+.footer-copyright {
+    font-size: 12px;
+    color: #737373;
+}
+
+/* =========================
+   Responsive Styles
+========================= */
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .signup-box,
+    .login-box {
+        width: 90%;
+        padding: 15px;
+    }
+
+    form input[type="text"],
+    form input[type="email"],
+    form input[type="password"],
+    .signup-btn {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .language-dropdown {
+        text-align: center;
+    }
+}

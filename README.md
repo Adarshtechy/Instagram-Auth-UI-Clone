@@ -1,7 +1,6 @@
 ## Instagram Auth UI Clone
 
 A simple front-end clone of Instagram’s **Login** and **Signup** pages built using **HTML** and **CSS**.
-
 This project is for learning and practice purposes — it replicates the visual interface of Instagram’s authentication screens but doesn’t include real backend authentication.
 
 ## 🔍 Project Overview
@@ -21,13 +20,13 @@ This repository contains:
 ## 📁 Project Structure
 ```
 Instagram-Auth-UI-Clone
-├── login.html
-├── loginstyle.css
-├── signup.html
-├── signupstyle.css
-├── Get it from Microsoft.png
-├── Get it on Google Play.png
-├── README.md
+         ├── login.html
+         ├── loginstyle.css
+         ├── signup.html
+         ├── signupstyle.css
+         ├── Get it from Microsoft.png
+         ├── Get it on Google Play.png
+         ├── README.md
 ```
 ---
 

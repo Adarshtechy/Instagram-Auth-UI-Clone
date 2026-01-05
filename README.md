@@ -19,19 +19,16 @@ This repository contains:
 - **CSS3**
 
 ## 📁 Project Structure
-├── README.md
-
+```
 ├── login.html
-
 ├── loginstyle.css
-
 ├── signup.html
-
 ├── signupstyle.css
-
 ├── Get it from Microsoft.png
-
 ├── Get it on Google Play.png
+├── README.md
+```
+---
 
 ## 🚀 Features
 

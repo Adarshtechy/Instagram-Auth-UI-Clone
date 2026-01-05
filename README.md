@@ -20,6 +20,7 @@ This repository contains:
 
 ## 📁 Project Structure
 ```
+Instagram-Auth-UI-Clone
 ├── login.html
 ├── loginstyle.css
 ├── signup.html

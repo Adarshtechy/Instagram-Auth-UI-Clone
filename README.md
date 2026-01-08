@@ -19,7 +19,7 @@ This repository contains:
 
 ## 📁 Project Structure
 ```
-Instagram-Auth-UI-Clone/
+InstagramAuthUIClone/
 ├── login.html
 ├── loginstyle.css
 ├── signup.html
@@ -41,7 +41,7 @@ Instagram-Auth-UI-Clone/
 
 1. **Clone or download** the repository  
    ```bash
-   git clone https://github.com/Adarshtechy/Instagram-Auth-UI-Clone.git
+   git clone https://github.com/Adarshtechy/InstagramAuthUIClone.git
    ```
 2. Open the project folder
 3. Launch login.html or signup.html in your browser
